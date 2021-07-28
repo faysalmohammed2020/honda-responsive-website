@@ -39,7 +39,7 @@
     text-align: center;
     font-weight: 600;
 }
-img {
+#feature-img {
     margin-left: 80px;
 }
 .feature-bike-img{
@@ -50,6 +50,18 @@ img {
 }
 
 /* Featured Bike Style End */
+/* Latest News Style Start */
+.latest-news{
+    margin-top: 80px;
+    margin-bottom: 80px;
+
+}
+.latest-h1{
+    color: black;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 700;
+}
 
 
 
