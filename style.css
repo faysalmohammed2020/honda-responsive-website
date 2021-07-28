@@ -1,20 +1,76 @@
 /* Header style started */
+
 .honda-bg{
     background-color: #264653;
 }
-.honda-login-btn{
+.honda-btn{
     background-color: #E76F51;
     margin: 0 10px;
     padding-left: 15px;
     padding-right: 15px;
     border-radius: 5px;
+    text-decoration: none;
 }
 
-
-
-
-
-
-
-
 /* Header style End */
+/* Hero style started */
+.container{
+
+}
+.honda-modal-btn{
+    background-color: #E76F51;
+   
+}
+/* Hero style End */
+/* Featured Bike Style Start */
+.Fetured-bike-section{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.featured-bike-h1{
+    color: black;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 700;
+}
+.featured-bike-p{
+    color: #E76F51;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 600;
+}
+img {
+    margin-left: 80px;
+}
+.feature-bike-img{
+    filter: grayscale(100%);
+}
+.ps-4 {
+    padding-left: 4.5rem !important;
+}
+
+/* Featured Bike Style End */
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Query */
+@media screen and (max-width: 688px) {
+    .honda-btn{
+        display: none;
+       
+    }
+    .hero-img{
+        width: 300px;
+        height: 300px;
+    }
+   
+}
