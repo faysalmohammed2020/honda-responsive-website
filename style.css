@@ -1,9 +1,10 @@
 /* Header style started */
 
-.honda-bg{
+.honda-bg {
     background-color: #264653;
 }
-.honda-btn{
+
+.honda-btn {
     background-color: #E76F51;
     margin: 0 10px;
     padding-left: 15px;
@@ -14,69 +15,120 @@
 
 /* Header style End */
 /* Hero style started */
-.container{
+.container {}
+
+.honda-modal-btn {
+    background-color: #E76F51;
 
 }
-.honda-modal-btn{
-    background-color: #E76F51;
-   
-}
+
 /* Hero style End */
 /* Featured Bike Style Start */
-.Fetured-bike-section{
+.Fetured-bike-section {
     margin-top: 80px;
     margin-bottom: 80px;
 }
-.featured-bike-h1{
+
+.featured-bike-h1 {
     color: black;
     font-size: 40px;
     text-align: center;
     font-weight: 700;
 }
-.featured-bike-p{
+
+.featured-bike-p {
     color: #E76F51;
     font-size: 16px;
     text-align: center;
     font-weight: 600;
 }
+
 #feature-img {
     margin-left: 80px;
 }
-.feature-bike-img{
+
+.feature-bike-img {
     filter: grayscale(100%);
 }
+
 .ps-4 {
     padding-left: 4.5rem !important;
 }
 
 /* Featured Bike Style End */
 /* Latest News Style Start */
-.latest-news{
+.latest-news {
     margin-top: 80px;
     margin-bottom: 80px;
 
 }
-.latest-h1{
+
+.latest-h1 {
     color: black;
     font-size: 40px;
     text-align: center;
     font-weight: 700;
 }
-.honda-card-btn{
+
+.honda-card-btn {
     background-color: #E76F51;
     margin: 10px 10px;
     padding: 10px 15px;
     border-radius: 5px;
     text-decoration: none;
     color: white;
-    
+
 }
-.honda-card-btn:hover{
+
+.honda-card-btn:hover {
     color: white;
     background-color: #ec4d26;
 }
+/* Client Says Section Style */
+.client-h1 {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
 
+.client-say {
+    color: #E76F51;
+}
 
+.user-img {
+    width: 40%;
+    padding-left: 19px;
+    margin-left: 110px;
+    margin-top: 15px;
+}
+.client-p{
+    text-align: center;
+}
+.fa-star{
+
+    font-size: 12px;
+    text-align: center;
+}
+.fa-star.filled{
+    color: #FFC814;
+}
+.fa-star.empty{
+    color: #AEAEAE;
+}
+.star {
+    margin-left: 140px;
+}
+.client-name-h6{
+    color: #5ABCF4;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+}
+.client-name-p{
+    text-align: center;
+    font-size: 12px;
+    font-weight: 00;
+}
 
 
 
@@ -88,13 +140,14 @@
 
 /* Media Query */
 @media screen and (max-width: 688px) {
-    .honda-btn{
+    .honda-btn {
         display: none;
-       
+
     }
-    .hero-img{
+
+    .hero-img {
         width: 300px;
         height: 300px;
     }
-   
+
 }
