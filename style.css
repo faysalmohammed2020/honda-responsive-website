@@ -148,13 +148,57 @@ body{
 }
 .reg-btn {
     
-    margin-left: 545px;
+    margin-left: 235px;
 }
 .reg{
-    background-color: #0e70da;
+    background-color: #5D59CA;
     padding: 60px;
     margin: 50px;
     border-radius: 50px;
+}
+#reg-img{
+    width: 600px;
+    height: 300px;
+}
+.footer{
+    background-color: black;
+    margin: 0;
+    padding: 40px;
+}
+.footer-menu a {
+    text-decoration: none;
+    margin-left: 10px;
+    color: white;
+    line-height: 50px;
+}
+.footer-menu a:hover{
+     color: burlywood;
+}
+.footer-p{
+    color: cornsilk;
+    margin-left: 6px;
+}
+.fa-google-play{
+    color: white;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    font-size: 20px;
+}
+.fa-apple{
+    color: white;
+    margin: 5px;
+    padding: 10px 33px 10px 9px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    font-size: 20px;
+}
+.footer-p-2{
+    color: white;
+    font-size: 18px;
+    padding-left: 10px;
+    font-weight: 600;
 }
 
 
@@ -186,6 +230,10 @@ body{
     }
     .reg-btn {
     
-        margin-left: 170px;
+        margin-left: 60px;
+    }
+    #reg-img {
+        width: 200px;
+        height: 150px;
     }
 }
