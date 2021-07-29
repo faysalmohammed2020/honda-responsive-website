@@ -1,5 +1,7 @@
 /* Header style started */
-
+body{
+    overflow-x: hidden;
+}
 .honda-bg {
     background-color: #264653;
 }
@@ -129,7 +131,32 @@
     font-size: 12px;
     font-weight: 00;
 }
+/* register section style */
 
+.reg-h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+}
+.reg-p{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+
+}
+.reg-btn {
+    
+    margin-left: 545px;
+}
+.reg{
+    background-color: #0e70da;
+    padding: 60px;
+    margin: 50px;
+    border-radius: 50px;
+}
+}
 
 
 
@@ -149,5 +176,16 @@
         width: 300px;
         height: 300px;
     }
-
+    .faq-img{
+        width: 300px;
+        height: 300px;
+    }
+    .responsive-img{
+        width: 230px;
+        height: 230px;
+    }
+    .reg-btn {
+    
+        margin-left: 170px;
+    }
 }
