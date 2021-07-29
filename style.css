@@ -1,11 +1,18 @@
-/* Header style started */
-body{
-    overflow-x: hidden;
-}
+/* Common Style */
 *{
     padding: 0;
     margin: 0;
 }
+body{
+    overflow-x: hidden;
+}
+
+
+
+
+/* Header style started */
+
+
 .honda-bg {
     background-color: #264653;
 }
