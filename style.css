@@ -2,6 +2,10 @@
 body{
     overflow-x: hidden;
 }
+*{
+    padding: 0;
+    margin: 0;
+}
 .honda-bg {
     background-color: #264653;
 }
