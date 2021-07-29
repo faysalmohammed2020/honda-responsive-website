@@ -222,6 +222,10 @@ body{
 
 /* Media Query */
 @media screen and (max-width: 688px) {
+    body{
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
     .honda-btn {
         display: none;
 
